@@ -1,0 +1,206 @@
+/* font-family: "Raleway Regular"; */
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway/Raleway-Regular.otf") format("otf"),
+	url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Raleway Light"; */
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway/Raleway-Light.otf") format("otf"),
+	url("../fonts/Raleway/Raleway-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: lighter;
+}
+/* font-family: "Raleway Bold"; */
+@font-face {
+	font-family: "RalewayBold";
+	src: url("../fonts/Raleway/Raleway-Bold.otf") format("otf"),
+	url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+
+/*----------------------font-family: Helvetica Neue Regular*/
+@font-face {
+	font-family: "Helvetica";
+	src: url("../fonts/Helvetica/HelveticaNeue-Regular.otf") format("otf");
+	font-style: normal;
+	font-weight: normal;
+}
+/*----------------------font-family: Helvetica Neue Bold*/
+@font-face {
+	font-family: "Helvetica";
+	src: url("../fonts/Helvetica/HelveticaNeue-BoldExt.otf") format("otf");
+	font-style: normal;
+	font-weight: bold;
+}
+/*----------------------font-family: Helvetica Neue Italic*/
+@font-face {
+	font-family: "Helvetica";
+	src: url("../fonts/Helvetica/HelveticaNeueItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: normal;
+}/*----------------------font-family: Helvetica Neue Light*/
+@font-face {
+	font-family: "Helvetica";
+	src: url("../fonts/Helvetica/HelveticaNeueLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: lighter;
+}
+
+
+/*----------------------font-family: Comfortaa*/
+
+/* light */
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: lighter;
+}
+/* regular */
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* medium */
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa/Comfortaa-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+/* semi-bold */
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa/Comfortaa-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+}
+/* bold */
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+/*----------------------font-family: Pacifico Regular*/
+
+@font-face {
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/*----------------------font-family: PoiretOne Regular*/
+
+@font-face {
+	font-family: "PoiretOne";
+	src: url("../fonts/PoiretOne/PoiretOne-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*----------------------font-family: Exo2*/
+
+/* extra light */
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-ExtraLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 200;
+}
+/* extra light italic*/
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-ExtraLightItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 200;
+}
+
+/*light */
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 300;
+}
+/*light italic*/
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-LightItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 300;
+}
+
+/* regular */
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* regular italic*/
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-RegularItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* medium */
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+/* medium italic*/
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-MediumItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 500;
+}
+
+/* semi-bold */
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+}
+/* semi-bold italic*/
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-SemiBoldItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 600;
+}
+
+/* bold */
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+/* bold italic*/
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2/Exo2-BlackItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: bold;
+}
+
