@@ -153,6 +153,31 @@ body, h1, h2, h3, h4, h5, h6, p, ul
 		text-align: center
 		line-height: 1.5
 
+.projeсts
+	padding-bottom: 40px
+
+.project-list
+
+	li
+		list-style: none
+		padding-left: 20px
+		margin-bottom: 20px
+		line-height: 1.2
+		font-size: 20px
+		position: relative
+		&:before
+			content: ''
+			display: inline-block
+			position: absolute
+			left: -24px
+			top: 50%
+			transform: translateY(-50%)
+			// margin-right: 15px
+			width: 24px
+			height: 24px
+			background: url(../images/icons/list.png) center no-repeat
+			background-size: contain
+
 .footer
 	background: $gray
 	padding: 40px 0
