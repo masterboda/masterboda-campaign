@@ -32,8 +32,8 @@
 		}
 
 		let type = window.location.href.match(/\S+\/?\?ref=(\w+)/)[1];
-		type = type ? type : 'direct';	console.log(type);					      
-// 		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
+		type = type ? type : 'direct';					      
+		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
 
 		// let xhr = new XMLHttpRequest();
 		// xhr.open('POST', 'http://v67351cx.bget.ru/metrics.php');
