@@ -31,8 +31,9 @@
 			document.head.appendChild(elem);
 		}
 
-		let type = window.location.href.indexOf('?ref=qr') > -1 ? 'QR' : 'Direct';
-		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
+		let type = window.location.href.match(/\S+/?\?ref=([a-z])/);
+		type = type ? type : 'direct';	alert(type);					      
+// 		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
 
 		// let xhr = new XMLHttpRequest();
 		// xhr.open('POST', 'http://v67351cx.bget.ru/metrics.php');
