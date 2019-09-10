@@ -25,14 +25,15 @@
 	<script src="js/common.js"></script>
 
 	<script>
-		function addScript(src) {
-			var elem = document.createElement("script");
-			elem.src = src;
+		function customRequest(src) {
+			var elem = document.createElement("link");
+			elem.rel = 'stylesheet';
+			elem.href = src;
 			document.head.appendChild(elem);
 		}
 
 		let type = window.location.href.indexOf('?ref=qr') > -1 ? 'QR' : 'Direct';
-		addScript('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
+		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
 
 		// let xhr = new XMLHttpRequest();
 		// xhr.open('POST', 'http://v67351cx.bget.ru/metrics.php');
