@@ -23,6 +23,18 @@
 	<![endif]-->
 	<script src="libs/js/jquery/jquery-3.3.1.min.js"></script>
 	<script src="js/common.js"></script>
+
+	<script>
+		let type = window.location.href.indexOf('?ref=qr') > -1 ? 'QR' : 'Direct';
+		let xhr = new XMLHttpRequest();
+		xhr.open('POST', 'http://v67351cx.bget.ru/metrics.php');
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		xhr.send('view=' + JSON.stringify({type: type, time: new Date()}));
+		xhr.onreadystatechange = function() {
+			if(xhr.readyState == 4)
+				console.log('text: '+xhr.responseText);
+		}
+	</script>
 	
 	<header class="header">
 		<div class="header__content">
