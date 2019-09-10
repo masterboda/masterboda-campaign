@@ -31,7 +31,7 @@
 			document.head.appendChild(elem);
 		}
 
-		let type = window.location.href.match(/\S+/?\?ref=([a-z])/);
+		let type = window.location.href.match(/\S+\/?\?ref=([a-z])/);
 		type = type ? type : 'direct';	console.log(type);					      
 // 		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
 
