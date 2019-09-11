@@ -33,12 +33,12 @@
 
 		let type = window.location.href.match(/\S+\/?\?ref=(\w+)/)[1];
 		type = type ? type : 'direct';					      
-		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type, time: new Date()}))
+		customRequest('http://v67351cx.bget.ru/metrics.php?view=' + JSON.stringify({type: type.toLowerCase(), time: new Date()}))
 
 		// let xhr = new XMLHttpRequest();
 		// xhr.open('POST', 'http://v67351cx.bget.ru/metrics.php');
 		// xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-		// xhr.send('view=' + JSON.stringify({type: type, time: new Date()}));
+		// xhr.send('view=' + JSON.stringify({type: type.toLowerCase(), time: new Date()}));
 		// xhr.onreadystatechange = function() {
 		// 	if(xhr.readyState == 4)
 		// 		console.log('text: '+xhr.responseText);
